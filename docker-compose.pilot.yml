@@ -1,0 +1,39 @@
+# Pilot overlay. Use with a distinct Compose project name so volumes, network,
+# and containers stay separate from the development stack.
+# Do not change docker-compose.yml for Pilot.
+
+services:
+  postgres:
+    ports: !override
+      - "55433:5432"
+    environment:
+      POSTGRES_DB: project_cost_hub_pilot
+      POSTGRES_USER: project_cost
+      POSTGRES_PASSWORD: ${PILOT_POSTGRES_PASSWORD}
+
+  backend:
+    env_file: !override
+      - .env.pilot
+    ports: !override
+      - "8011:8010"
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: project_cost_hub_pilot
+      POSTGRES_USER: project_cost
+      POSTGRES_PASSWORD: ${PILOT_POSTGRES_PASSWORD}
+      APP_ENV: production
+      DEBUG: "false"
+      BOOTSTRAP_DEMO_ACCOUNTS: "false"
+      CORS_ORIGINS: http://localhost:5174,http://127.0.0.1:5174
+      JWT_SECRET_KEY: ${PILOT_JWT_SECRET_KEY}
+      INITIAL_ADMIN_USERNAME: admin
+      INITIAL_ADMIN_PASSWORD: ${PILOT_INITIAL_ADMIN_PASSWORD}
+
+  frontend:
+    ports: !override
+      - "5174:5173"
+    environment:
+      VITE_PROXY_TARGET: http://backend:8010
+    command: >
+      sh -c "if [ ! -x node_modules/.bin/vite ]; then npm install; fi && npm run dev"

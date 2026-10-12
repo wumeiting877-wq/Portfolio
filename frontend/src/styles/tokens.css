@@ -1,0 +1,102 @@
+:root {
+  /* Carbon brand and interaction colors */
+  --color-primary: #0f62fe;
+  --color-primary-hover: #0050e6;
+  --color-primary-active: #0043ce;
+  --color-primary-pressed: #002d9c;
+
+  /* Surfaces */
+  --color-bg-page: #f4f4f4;
+  --color-bg-panel: #ffffff;
+  --color-bg-subtle: #e0e0e0;
+  --color-bg-hover: #e8e8e8;
+  --color-bg-selected: #d0e2ff;
+
+  /* Text */
+  --color-text-primary: #161616;
+  --color-text-secondary: #525252;
+  --color-text-muted: #8c8c8c;
+  --color-text-on-primary: #ffffff;
+  --color-text-placeholder: #a8a8a8;
+  --color-text-disabled: #c6c6c6;
+
+  /* Borders and focus */
+  --color-border: #e0e0e0;
+  --color-border-strong: #161616;
+  --color-focus: #0f62fe;
+
+  /* Semantic colors */
+  --color-success: #24a148;
+  --color-success-bg: #defbe6;
+  --color-warning: #f1c21b;
+  --color-warning-bg: #fcf4d6;
+  --color-danger: #da1e28;
+  --color-danger-bg: #fff1f1;
+  --color-info: #0f62fe;
+  --color-info-bg: #d0e2ff;
+
+  /* Links */
+  --color-link: #0f62fe;
+  --color-link-hover: #0043ce;
+
+  /* Shape */
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
+  /* 4px spacing grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* Shared Dashboard page container: Carbon desktop grid maximum. */
+  --dashboard-content-max-width: 1584px;
+
+  /* Element Plus: only project-level theme mappings */
+  --el-color-primary: var(--color-primary);
+  --el-color-primary-light-3: #4589ff;
+  --el-color-primary-light-5: #78a9ff;
+  --el-color-primary-light-7: #a6c8ff;
+  --el-color-primary-light-8: #d0e2ff;
+  --el-color-primary-light-9: #edf5ff;
+  --el-color-primary-dark-2: var(--color-primary-pressed);
+  --el-color-success: var(--color-success);
+  --el-color-warning: var(--color-warning);
+  --el-color-danger: var(--color-danger);
+  --el-color-error: var(--color-danger);
+  --el-color-info: var(--color-info);
+
+  --el-text-color-primary: var(--color-text-primary);
+  --el-text-color-regular: var(--color-text-secondary);
+  --el-text-color-secondary: var(--color-text-muted);
+  --el-text-color-placeholder: var(--color-text-placeholder);
+  --el-text-color-disabled: var(--color-text-disabled);
+
+  --el-border-color: var(--color-border);
+  --el-border-color-light: var(--color-border);
+  --el-border-color-lighter: var(--color-border);
+  --el-border-color-extra-light: var(--color-bg-page);
+
+  --el-bg-color: var(--color-bg-panel);
+  --el-bg-color-page: var(--color-bg-page);
+  --el-fill-color-blank: var(--color-bg-panel);
+  --el-fill-color-light: var(--color-bg-page);
+
+  --el-border-radius-base: var(--radius-none);
+  --el-border-radius-small: var(--radius-none);
+  --el-font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --el-font-size-base: 14px;
+
+  /* Gate 5 chart tokens: IBM Blue primary + restrained Carbon neighbors */
+  --chart-series-1: #0f62fe;
+  --chart-series-2: #525252;
+  --chart-series-3: #0043ce;
+  --chart-series-4: #24a148;
+  --chart-series-5: #8c8c8c;
+  --chart-axis: #8c8c8c;
+  --chart-split: #e0e0e0;
+}

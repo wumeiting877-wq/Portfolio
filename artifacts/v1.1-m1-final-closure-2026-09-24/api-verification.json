@@ -1,0 +1,394 @@
+{
+  "scope": {
+    "admin": {
+      "role": "ADMIN",
+      "scope": "GLOBAL",
+      "projectIds": [
+        9,
+        8,
+        7,
+        3,
+        2,
+        1
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-C",
+        "DASH-DEMO-PRJ-B",
+        "DASH-DEMO-PRJ-A",
+        "VX-PRJ-001",
+        "GATE2-B",
+        "GATE2-A"
+      ],
+      "resourceIds": [
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "expenseIds": [
+        18,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        50,
+        49,
+        54,
+        51,
+        10,
+        9,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8,
+        7,
+        1,
+        47,
+        53,
+        48,
+        45,
+        44,
+        52,
+        46,
+        42,
+        43,
+        40,
+        39,
+        41,
+        37,
+        38
+      ]
+    },
+    "boss": {
+      "role": "BOSS",
+      "scope": "GLOBAL",
+      "projectIds": [
+        9,
+        8,
+        7,
+        3,
+        2,
+        1
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-C",
+        "DASH-DEMO-PRJ-B",
+        "DASH-DEMO-PRJ-A",
+        "VX-PRJ-001",
+        "GATE2-B",
+        "GATE2-A"
+      ],
+      "resourceIds": [
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "expenseIds": [
+        18,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        50,
+        49,
+        54,
+        51,
+        10,
+        9,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8,
+        7,
+        1,
+        47,
+        53,
+        48,
+        45,
+        44,
+        52,
+        46,
+        42,
+        43,
+        40,
+        39,
+        41,
+        37,
+        38
+      ]
+    },
+    "pmA": {
+      "role": "PROJECT_MANAGER",
+      "scope": "MANAGED_PROJECTS",
+      "projectIds": [
+        8,
+        7
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-B",
+        "DASH-DEMO-PRJ-A"
+      ],
+      "resourceIds": [
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24
+      ],
+      "expenseIds": [
+        50,
+        49,
+        51,
+        47,
+        48,
+        45,
+        44,
+        46,
+        42,
+        43,
+        40,
+        39,
+        41,
+        37,
+        38
+      ]
+    },
+    "pmB": {
+      "role": "PROJECT_MANAGER",
+      "scope": "MANAGED_PROJECTS",
+      "projectIds": [
+        9
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-C"
+      ],
+      "resourceIds": [
+        32
+      ],
+      "expenseIds": [
+        54,
+        53,
+        52
+      ]
+    },
+    "memberA": {
+      "role": "MEMBER",
+      "scope": "MEMBER_PROJECTS",
+      "projectIds": [
+        8,
+        7
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-B",
+        "DASH-DEMO-PRJ-A"
+      ],
+      "resourceIds": [
+        30,
+        27,
+        26,
+        24
+      ],
+      "expenseIds": [
+        50,
+        49,
+        51,
+        47,
+        48,
+        45,
+        44,
+        46,
+        42,
+        43,
+        40,
+        39,
+        41,
+        37,
+        38
+      ]
+    },
+    "memberB": {
+      "role": "MEMBER",
+      "scope": "MEMBER_PROJECTS",
+      "projectIds": [
+        7
+      ],
+      "projectCodes": [
+        "DASH-DEMO-PRJ-A"
+      ],
+      "resourceIds": [
+        29,
+        28
+      ],
+      "expenseIds": [
+        49,
+        47,
+        44,
+        42,
+        39,
+        37
+      ]
+    }
+  },
+  "forbiddenWrites": {
+    "boss": {
+      "project.archive": 403,
+      "employee.delete": 403,
+      "resource.disable": 403,
+      "expense.void": 403,
+      "recurring.disable": 403,
+      "systemUser.disable": 403,
+      "settings.update": 403
+    },
+    "pmA": {
+      "project.archive": 403,
+      "employee.delete": 403,
+      "resource.disable": 403,
+      "expense.void": 403,
+      "recurring.disable": 403,
+      "systemUser.disable": 403,
+      "settings.update": 403
+    },
+    "memberA": {
+      "project.archive": 403,
+      "employee.delete": 403,
+      "resource.disable": 403,
+      "expense.void": 403,
+      "recurring.disable": 403,
+      "systemUser.disable": 403,
+      "settings.update": 403
+    }
+  },
+  "stableIdentifiers": {
+    "employee_no": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    },
+    "project_code": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    },
+    "resource_type_code": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    },
+    "expense_type_code": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    },
+    "username": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    },
+    "resource_name": {
+      "admin": 200,
+      "boss": 403,
+      "pm": 403,
+      "member": 403
+    }
+  },
+  "importExport": {
+    "admin": {
+      "importTemplate": 200,
+      "employeesExport": 200
+    },
+    "boss": {
+      "importTemplate": 403,
+      "resourceTypeCostsExport": 200,
+      "employeesExport": 403
+    },
+    "pmA": {
+      "importTemplate": 403,
+      "projectsExport": 200,
+      "idleResourcesExport": 403
+    },
+    "memberA": {
+      "importTemplate": 403,
+      "resourcesExport": 200,
+      "projectsExport": 403
+    }
+  },
+  "currency": {
+    "admin": {
+      "CNY": "39716.50",
+      "USD": "300.00"
+    },
+    "boss": {
+      "CNY": "39716.50",
+      "USD": "300.00"
+    },
+    "pmA": {
+      "CNY": "27444.00",
+      "USD": "200.00"
+    },
+    "pmB": {
+      "CNY": "5040.00"
+    },
+    "memberA": {
+      "CNY": "14394.00",
+      "USD": "120.00"
+    },
+    "memberB": {
+      "CNY": "6525.00"
+    }
+  }
+}

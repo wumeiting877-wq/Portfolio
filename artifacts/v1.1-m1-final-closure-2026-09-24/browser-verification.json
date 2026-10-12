@@ -1,0 +1,460 @@
+{
+  "screenshots": [
+    "admin-dashboard-final.png",
+    "boss-dashboard-final.png",
+    "pm-dashboard-project-a-final.png",
+    "pm-dashboard-project-b-final.png",
+    "member-dashboard-full-final.png",
+    "member-dashboard-empty-final.png"
+  ],
+  "responsive": [
+    {
+      "role": "admin",
+      "width": 1440,
+      "height": 1000,
+      "innerWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "admin",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "admin",
+      "width": 1366,
+      "height": 768,
+      "innerWidth": 1366,
+      "documentWidth": 1366,
+      "bodyWidth": 1366,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "admin",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "admin",
+      "width": 1280,
+      "height": 1000,
+      "innerWidth": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "admin",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "admin",
+      "width": 1024,
+      "height": 1000,
+      "innerWidth": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "admin",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "admin",
+      "width": 979,
+      "height": 1000,
+      "innerWidth": 979,
+      "documentWidth": 979,
+      "bodyWidth": 979,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "admin",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "boss",
+      "width": 1440,
+      "height": 1000,
+      "innerWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "boss",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "boss",
+      "width": 1366,
+      "height": 768,
+      "innerWidth": 1366,
+      "documentWidth": 1366,
+      "bodyWidth": 1366,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "boss",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "boss",
+      "width": 1280,
+      "height": 1000,
+      "innerWidth": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "boss",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "boss",
+      "width": 1024,
+      "height": 1000,
+      "innerWidth": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "boss",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "boss",
+      "width": 979,
+      "height": 1000,
+      "innerWidth": 979,
+      "documentWidth": 979,
+      "bodyWidth": 979,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "boss",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "pm",
+      "width": 1440,
+      "height": 1000,
+      "innerWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "project-manager",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "pm",
+      "width": 1366,
+      "height": 768,
+      "innerWidth": 1366,
+      "documentWidth": 1366,
+      "bodyWidth": 1366,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "project-manager",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "pm",
+      "width": 1280,
+      "height": 1000,
+      "innerWidth": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "project-manager",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "pm",
+      "width": 1024,
+      "height": 1000,
+      "innerWidth": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "project-manager",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "pm",
+      "width": 979,
+      "height": 1000,
+      "innerWidth": 979,
+      "documentWidth": 979,
+      "bodyWidth": 979,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "project-manager",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberFull",
+      "width": 1440,
+      "height": 1000,
+      "innerWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberFull",
+      "width": 1366,
+      "height": 768,
+      "innerWidth": 1366,
+      "documentWidth": 1366,
+      "bodyWidth": 1366,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberFull",
+      "width": 1280,
+      "height": 1000,
+      "innerWidth": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberFull",
+      "width": 1024,
+      "height": 1000,
+      "innerWidth": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberFull",
+      "width": 979,
+      "height": 1000,
+      "innerWidth": 979,
+      "documentWidth": 979,
+      "bodyWidth": 979,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberEmpty",
+      "width": 1440,
+      "height": 1000,
+      "innerWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberEmpty",
+      "width": 1366,
+      "height": 768,
+      "innerWidth": 1366,
+      "documentWidth": 1366,
+      "bodyWidth": 1366,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberEmpty",
+      "width": 1280,
+      "height": 1000,
+      "innerWidth": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberEmpty",
+      "width": 1024,
+      "height": 1000,
+      "innerWidth": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    },
+    {
+      "role": "memberEmpty",
+      "width": 979,
+      "height": 1000,
+      "innerWidth": 979,
+      "documentWidth": 979,
+      "bodyWidth": 979,
+      "headerVisible": true,
+      "sidebarVisible": true,
+      "dashboard": "member",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "menus": {
+    "admin": [
+      "系统管理看板",
+      "统计分析",
+      "项目管理",
+      "资源账号",
+      "费用管理",
+      "周期规则",
+      "人员管理",
+      "系统账号",
+      "导入导出",
+      "提醒中心",
+      "审计日志",
+      "系统设置"
+    ],
+    "boss": [
+      "经营总览",
+      "统计分析",
+      "项目管理",
+      "资源账号",
+      "费用管理",
+      "周期规则",
+      "人员管理",
+      "数据导出",
+      "提醒中心",
+      "审计日志"
+    ],
+    "pm": [
+      "项目看板",
+      "项目统计",
+      "我的项目",
+      "项目资源",
+      "项目费用",
+      "数据导出",
+      "提醒中心"
+    ],
+    "memberFull": [
+      "我的工作台",
+      "我的统计",
+      "我的项目",
+      "我的资源",
+      "我的费用",
+      "数据导出",
+      "提醒中心"
+    ],
+    "memberEmpty": [
+      "我的工作台",
+      "我的统计",
+      "我的项目",
+      "我的资源",
+      "我的费用",
+      "数据导出",
+      "提醒中心"
+    ]
+  },
+  "routes": {
+    "admin": [],
+    "boss": [
+      {
+        "requested": "/users",
+        "actual": "/"
+      },
+      {
+        "requested": "/settings",
+        "actual": "/"
+      }
+    ],
+    "pm": [
+      {
+        "requested": "/recurring-expenses",
+        "actual": "/"
+      },
+      {
+        "requested": "/employees",
+        "actual": "/"
+      },
+      {
+        "requested": "/users",
+        "actual": "/"
+      },
+      {
+        "requested": "/audit-logs",
+        "actual": "/"
+      },
+      {
+        "requested": "/settings",
+        "actual": "/"
+      }
+    ],
+    "memberFull": [
+      {
+        "requested": "/recurring-expenses",
+        "actual": "/"
+      },
+      {
+        "requested": "/employees",
+        "actual": "/"
+      },
+      {
+        "requested": "/users",
+        "actual": "/"
+      },
+      {
+        "requested": "/audit-logs",
+        "actual": "/"
+      },
+      {
+        "requested": "/settings",
+        "actual": "/"
+      }
+    ],
+    "memberEmpty": [
+      {
+        "requested": "/recurring-expenses",
+        "actual": "/"
+      },
+      {
+        "requested": "/employees",
+        "actual": "/"
+      },
+      {
+        "requested": "/users",
+        "actual": "/"
+      },
+      {
+        "requested": "/audit-logs",
+        "actual": "/"
+      },
+      {
+        "requested": "/settings",
+        "actual": "/"
+      }
+    ]
+  },
+  "consoleErrors": {
+    "admin": [],
+    "boss": [],
+    "pm": [],
+    "memberFull": [],
+    "memberEmpty": []
+  },
+  "httpErrors": {
+    "admin": [],
+    "boss": [],
+    "pm": [],
+    "memberFull": [],
+    "memberEmpty": []
+  }
+}
